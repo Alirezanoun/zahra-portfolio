@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+a:link,
+a:visited {
+  color: #ff4969;
+}
+
 .navbar {
   background: #f5f8fa;
   height: 80px;
@@ -110,7 +115,7 @@
   border-radius: 10px;
   background: #833ab4;
   background: linear-gradient(to right, #ff4969, #ff4969, #ff4969);
-  color: #fff;
+  color: #fff !important;
   transition: all 0.3s ease;
 }
 
