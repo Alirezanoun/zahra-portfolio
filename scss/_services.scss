@@ -20,8 +20,7 @@
 	background-color: #000000;
 	background-image: linear-gradient(to right, #ff4969 0%, #ff4969 100%);
 	background-size: 100%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	margin-bottom: 5rem;

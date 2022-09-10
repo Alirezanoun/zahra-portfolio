@@ -38,7 +38,7 @@
   background-image: linear-gradient(to top, #ff4969 0%, #ff4969 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
@@ -53,7 +53,7 @@
   background-image: linear-gradient(to top, rgb(226, 159, 232) 0%, rgb(226, 159, 232) 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
@@ -261,7 +261,7 @@
   background: linear-gradient(to right, rgb(226, 159, 232), rgb(226, 159, 232)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -mo-text-fill-color: transparent;
 }
@@ -272,7 +272,7 @@
   background: linear-gradient(to right, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
@@ -324,7 +324,7 @@
   background-image: linear-gradient(to top, #e29fe8 0%, #e29fe8 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: capitalize;
@@ -337,7 +337,7 @@
   background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: lowercase;
@@ -355,7 +355,7 @@
   background: linear-gradient(to right, #ff4969, #ff4969); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
@@ -490,7 +490,7 @@
   background-image: linear-gradient(to right, #ff4969 0%, #ff4969 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   margin-bottom: 5rem;

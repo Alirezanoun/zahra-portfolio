@@ -28,8 +28,7 @@
 	background-color: #ffffff;
 	background-image: linear-gradient(to top, #ff4969 0%, #ff4969 100%);
 	background-size: 100%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	display: flex;
@@ -47,8 +46,7 @@
 		rgb(226, 159, 232) 100%
 	);
 	background-size: 100%;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	display: flex;
