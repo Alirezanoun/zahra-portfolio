@@ -1,14 +1,19 @@
 @use './color' as *;
 
+#navigation-bar {
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
 .navbar {
 	height: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1rem;
-	position: sticky;
-	top: 0;
-	z-index: 999;
 }
 
 .navbar__container {
@@ -41,11 +46,7 @@
 
 #navbar__logo2 {
 	background-color: #ffffff;
-	background-image: linear-gradient(
-		to top,
-		rgb(226, 159, 232) 0%,
-		rgb(226, 159, 232) 100%
-	);
+	background-image: linear-gradient(to top, rgb(226, 159, 232) 0%, rgb(226, 159, 232) 100%);
 	background-size: 100%;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;

@@ -42,11 +42,7 @@
 	flex-direction: column;
 	justify-content: center;
 	color: #fff;
-	background-image: linear-gradient(
-		to right,
-		rgb(255, 255, 255) 0%,
-		rgb(255, 255, 255) 100%
-	);
+	background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
 	transition: 0.2s ease-in;
 }
 
@@ -92,15 +88,21 @@
 	left: 37%;
 }
 
-.services__card button {
-	color: #fff;
-	padding: 14px 24px;
-	border: 1px solid #ffffff;
-	outline: none;
-	border-radius: 10px;
-	background-color: transparent;
-	font-size: 1rem;
-	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+.services__card {
+	button {
+		color: #fff;
+		border: 1px solid #ffffff;
+		outline: none;
+		border-radius: 10px;
+		background-color: rgba(255, 255, 255, 0.5);
+		font-size: 1rem;
+		box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+		a {
+			display: inline-block;
+			padding: 14px 24px;
+			font-weight: bold;
+		}
+	}
 }
 
 .services__card button:hover {
