@@ -228,38 +228,35 @@ a:visited {
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 48px;
 }
-
-.main__container {
+.main .main__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 90%;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 50px;
+  gap: 48px;
 }
 
 .main__content {
   color: #fff;
   width: 100%;
 }
-
 .main__content h2 {
+  font-size: 4rem;
+  color: #ff4969;
+}
+.main__content p {
   font-size: 2rem;
-  background-color: #fe3b6f;
-  background-image: linear-gradient(to top, #e29fe8 0%, #e29fe8 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  text-transform: capitalize;
-  margin-bottom: 10px;
+  font-weight: 700;
+}
+.main__content p,
+.main__content h1 {
+  color: #000;
 }
 
 .fix1 {
@@ -278,23 +275,6 @@ a:visited {
 .fix2 {
   font-size: 1rem;
   font-family: "Yeseva One";
-}
-
-.main__content h2 {
-  font-size: 2rem;
-  background: #ff8177; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ff4969, #ff4969); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 100%;
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-.main__content p {
-  margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
 }
 
 .main__btn {
