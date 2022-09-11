@@ -12,7 +12,7 @@ const Navbar = `
             <i class="fab fa-instagram"></i>
           </a>
           <li class="navbar__btn">
-            <a href="#sign-up" class="button" id="signup">Contact Me</a>
+            <a href="#sign-up" class="button" id="signup">Contact Us</a>
           </li>
         </ul>
       </div>
