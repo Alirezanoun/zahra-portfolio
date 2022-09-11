@@ -33,11 +33,7 @@
 
 .hero__heading span {
 	background: #ee0979; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#ff6a00,
-		#ee0979
-	); /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to right,
 		rgb(226, 159, 232),
@@ -53,11 +49,7 @@
 .hero__description {
 	font-size: 60px;
 	background: #da22ff; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#9114ff,
-		#da22ff
-	); /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, #9114ff, #da22ff); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to right,
 		#000000,
@@ -290,24 +282,6 @@
 	}
 }
 
-.extension {
-	background-color: #f5f8fa;
-	padding: 70rem 0;
-}
-
-.image img {
-	display: block;
-}
-
-.image #zoom-in img {
-	transform: scale(1);
-	transition: 0.3s ease-in-out;
-}
-
-.image #zoom-in:hover img {
-	transform: scale(1.045);
-}
-
 figure {
 	overflow: hidden;
 }
@@ -503,11 +477,7 @@ figure {
 	flex-direction: column;
 	justify-content: center;
 	color: #fff;
-	background-image: linear-gradient(
-		to right,
-		rgb(255, 255, 255) 0%,
-		rgb(255, 255, 255) 100%
-	);
+	background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
 	transition: 0.2s ease-in;
 }
 

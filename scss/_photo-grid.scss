@@ -1,0 +1,18 @@
+.gallery-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.image-gallery {
+		width: 100%;
+		max-width: 1500px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+	}
+}
+
+.photo-grid {
+	width: 100%;
+	height: auto;
+}
