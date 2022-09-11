@@ -2,6 +2,10 @@ function MobileMenu() {
 	const menu = document.querySelector('#mobile-menu');
 	const menuLinks = document.querySelector('.navbar__menu');
 	const navLogo = document.querySelector('#navbar__logo');
+	const elem = document.querySelector('.highlight');
+	const homeMenu = document.querySelector('#home-page');
+	const aboutMenu = document.querySelector('#about-page');
+	const servicesMenu = document.querySelector('#services-page');
 
 	// Display Mobile Menu
 	const mobileMenu = () => {
@@ -13,10 +17,6 @@ function MobileMenu() {
 
 	// Show active menu when scrolling
 	const highlightMenu = () => {
-		const elem = document.querySelector('.highlight');
-		const homeMenu = document.querySelector('#home-page');
-		const aboutMenu = document.querySelector('#about-page');
-		const servicesMenu = document.querySelector('#services-page');
 		let scrollPos = window.scrollY;
 		// console.log(scrollPos);
 
