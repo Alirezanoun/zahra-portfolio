@@ -1,3 +1,9 @@
+@use './color' as *;
+
+#wave {
+	padding-bottom: 120px;
+}
+
 .fill-image {
 	width: 100%;
 	height: auto;
@@ -15,6 +21,11 @@
 		h1 {
 			font-size: 40px;
 			grid-column-start: 2;
+		}
+		.header-2 {
+			font-size: 4rem;
+			color: $pink;
+			font-family: 'Yeseva One';
 		}
 	}
 }

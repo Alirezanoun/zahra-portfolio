@@ -8,6 +8,11 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 16px;
+		section {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
 	}
 }
 

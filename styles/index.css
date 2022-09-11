@@ -230,6 +230,10 @@ a:visited {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+#wave {
+  padding-bottom: 120px;
+}
+
 .fill-image {
   width: 100%;
   height: auto;
@@ -249,6 +253,11 @@ a:visited {
 .image-gap section h1 {
   font-size: 40px;
   grid-column-start: 2;
+}
+.image-gap section .header-2 {
+  font-size: 4rem;
+  color: #ff4969;
+  font-family: "Yeseva One";
 }
 
 .main {
@@ -616,6 +625,11 @@ section .cards .text-card h3 {
 .gallery-container .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.gallery-container .image-gallery section {
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
