@@ -1,3 +1,5 @@
+@use './color' as *;
+
 .services {
 	display: flex;
 	flex-direction: column;
@@ -17,7 +19,7 @@
 
 .services h1 {
 	background-color: #000000;
-	background-image: linear-gradient(to right, #ff4969 0%, #ff4969 100%);
+	background-image: linear-gradient(to right, $pink 0%, $pink 100%);
 	background-size: 100%;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;

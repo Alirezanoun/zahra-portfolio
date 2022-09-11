@@ -1,3 +1,5 @@
+@use './color' as *;
+
 .navbar {
 	height: 80px;
 	display: flex;
@@ -25,7 +27,7 @@
 
 #navbar__logo {
 	background-color: #ffffff;
-	background-image: linear-gradient(to top, #ff4969 0%, #ff4969 100%);
+	background-image: linear-gradient(to top, $pink 0%, $pink 100%);
 	background-size: 100%;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -101,8 +103,8 @@
 	outline: none;
 	border-radius: 10px;
 	background: #833ab4;
-	background: -webkit-linear-gradient(to right, #ff4969, #ff4969, #ff4969);
-	background: linear-gradient(to right, #ff4969, #ff4969, #ff4969);
+	background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
+	background: linear-gradient(to right, $pink, $pink, $pink);
 	color: #fff !important;
 	transition: all 0.3s ease;
 }

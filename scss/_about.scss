@@ -1,3 +1,5 @@
+@use './color' as *;
+
 .main {
 	padding: 5rem 0;
 }
@@ -59,8 +61,8 @@
 	); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 		to right,
-		#ff4969,
-		#ff4969
+		$pink,
+		$pink
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: 100%;
 	background-clip: text;
@@ -77,8 +79,8 @@
 .main__btn {
 	font-size: 1rem;
 	background: #833ab4;
-	background: -webkit-linear-gradient(to right, #efbde2, #efbde2, #efbde2);
-	background: linear-gradient(to right, #efbde2, #efbde2, #efbde2);
+	background: -webkit-linear-gradient(to right, $light-pink, $light-pink, $light-pink);
+	background: linear-gradient(to right, $light-pink, $light-pink, $light-pink);
 	padding: 11px 31px;
 	border: none;
 	border-radius: 7px;
@@ -103,7 +105,7 @@
 	left: 0;
 	width: 0;
 	height: 100%;
-	background: #ff4969;
+	background: $pink;
 	transition: all 0.35s;
 	border-radius: 4px;
 }

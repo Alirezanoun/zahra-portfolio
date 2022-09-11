@@ -1,3 +1,5 @@
+@use './color' as *;
+
 .waves2 {
 	width: 100%;
 	height: auto;
@@ -12,7 +14,7 @@
 
 .website__rights {
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #ff4969;
+	color: $pink;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);

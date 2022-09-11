@@ -1,4 +1,6 @@
+@use './color' as *;
+
 a:link,
 a:visited {
-	color: #ff4969;
+	color: $pink;
 }
