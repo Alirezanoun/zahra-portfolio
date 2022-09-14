@@ -2,6 +2,9 @@
 
 .main {
 	padding: 48px;
+	min-height: 600px;
+	display: flex;
+	align-items: center;
 
 	.main__container {
 		display: grid;

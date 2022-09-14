@@ -262,6 +262,9 @@ a:visited {
 
 .main {
   padding: 48px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
 }
 .main .main__container {
   display: grid;
@@ -416,6 +419,7 @@ a:visited {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .font2 {
@@ -488,7 +492,7 @@ a:visited {
   border: 1px solid #ffffff;
   outline: none;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
   font-size: 1rem;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
@@ -626,6 +630,7 @@ section .cards .text-card h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+  padding-bottom: 120px;
 }
 .gallery-container .image-gallery section {
   display: flex;
