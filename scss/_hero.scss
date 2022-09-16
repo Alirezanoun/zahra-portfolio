@@ -29,3 +29,30 @@
 		}
 	}
 }
+
+@media screen and (max-width: 960px) {
+	#wave {
+		padding-top: 110px;
+		transform: scale(1.5);
+	}
+
+	.image-gap {
+		section {
+			grid-template-columns: 1fr;
+			h1 {
+				font-size: 26px;
+			}
+			.header-2 {
+				font-size: 2.5rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#wave {
+		padding-top: 186px;
+		transform: scale(2.5);
+		padding-bottom: 183px;
+	}
+}
