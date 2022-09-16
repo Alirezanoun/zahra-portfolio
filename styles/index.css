@@ -459,7 +459,7 @@ a:visited {
   justify-content: center;
   color: #fff;
   background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .services__card:nth-child(2) {
@@ -641,4 +641,23 @@ section .cards .text-card h3 {
 .photo-grid {
   width: 100%;
   height: auto;
+}
+
+.gallery-container-2 {
+  width: 100%;
+  padding: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-container-2 .image-gallery-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding-bottom: 120px;
+}
+.gallery-container-2 .image-gallery-2 section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }/*# sourceMappingURL=index.css.map */
