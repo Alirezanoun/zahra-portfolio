@@ -1,3 +1,5 @@
+@use './color' as *;
+
 .gallery-container {
 	width: 100%;
 	padding: 16px;
@@ -64,6 +66,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	.font3 {
+		font-family: 'Yeseva One';
+		font-size: 3rem;
+		color: $pink;
+	}
 	.image-gallery-3 {
 		display: grid;
 		grid-template-columns: 1fr 1fr;

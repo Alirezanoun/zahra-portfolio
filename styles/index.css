@@ -698,6 +698,11 @@ section .cards .text-card h3 {
   justify-content: center;
   align-items: center;
 }
+.gallery-container-3 .font3 {
+  font-family: "Yeseva One";
+  font-size: 3rem;
+  color: #ff4969;
+}
 .gallery-container-3 .image-gallery-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
