@@ -690,4 +690,31 @@ section .cards .text-card h3 {
   .gallery-container-2 .image-gallery-2 {
     grid-template-columns: 1fr;
   }
+}
+.gallery-container-3 {
+  width: 100%;
+  padding: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-container-3 .image-gallery-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding-bottom: 120px;
+}
+.gallery-container-3 .image-gallery-3 section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .gallery-container-3 {
+    padding: 16px;
+  }
+  .gallery-container-3 .image-gallery-3 {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=index.css.map */

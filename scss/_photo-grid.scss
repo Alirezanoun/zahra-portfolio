@@ -57,3 +57,31 @@
 		}
 	}
 }
+
+.gallery-container-3 {
+	width: 100%;
+	padding: 96px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.image-gallery-3 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 16px;
+		padding-bottom: 120px;
+		section {
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.gallery-container-3 {
+		padding: 16px;
+		.image-gallery-3 {
+			grid-template-columns: 1fr;
+		}
+	}
+}
