@@ -6,3 +6,12 @@
 	font-size: 2.5rem;
 	color: $pink;
 }
+
+@media screen and (max-width: 960px) {
+	.font3 {
+		font-family: 'Yeseva One';
+		text-align: center;
+		font-size: 2rem;
+		color: $pink;
+	}
+}
