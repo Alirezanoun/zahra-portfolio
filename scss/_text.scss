@@ -1,1 +1,8 @@
 @use './color' as *;
+
+.font3 {
+	font-family: 'Yeseva One';
+	text-align: center;
+	font-size: 2.5rem;
+	color: $pink;
+}
