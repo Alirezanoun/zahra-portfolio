@@ -682,6 +682,16 @@ section .cards .text-card h3 {
   flex-direction: column;
   gap: 16px;
 }
+.gallery-container-2 .image .zoom-in {
+  transition: all 0.5s ease-out;
+}
+.gallery-container-2 .image .zoom-in:hover {
+  transform: scale(1.045);
+}
+.gallery-container-2 .image .zoom-in img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 960px) {
   .gallery-container-2 {
@@ -708,6 +718,16 @@ section .cards .text-card h3 {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+.gallery-container-3 .image .zoom-in {
+  transition: all 0.5s ease-out;
+}
+.gallery-container-3 .image .zoom-in:hover {
+  transform: scale(1.045);
+}
+.gallery-container-3 .image .zoom-in img {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 960px) {

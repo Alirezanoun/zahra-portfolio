@@ -49,6 +49,20 @@
 			gap: 16px;
 		}
 	}
+	.image {
+		.zoom-in {
+			&:hover {
+				transform: scale(1.045);
+			}
+
+			transition: all 0.5s ease-out;
+
+			img {
+				transform: scale(1);
+				transition: 0.3s ease-in-out;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 960px) {
@@ -75,6 +89,20 @@
 			display: flex;
 			flex-direction: column;
 			gap: 16px;
+		}
+	}
+	.image {
+		.zoom-in {
+			&:hover {
+				transform: scale(1.045);
+			}
+
+			transition: all 0.5s ease-out;
+
+			img {
+				transform: scale(1);
+				transition: 0.3s ease-in-out;
+			}
 		}
 	}
 }
