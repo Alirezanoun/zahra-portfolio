@@ -13,7 +13,6 @@ const Navbar = `
           <li class="navbar__btn">
             <a href="./contact.html" class="button" id="signup">Contact Me</a>
           </li>
-          <img src="./img/moon.png" id="icon"
         </ul>
       </div>
     </nav>`;
