@@ -22,7 +22,7 @@ const options = {
 	buttonColorDark: '#100f2c', // default: '#100f2c'
 	buttonColorLight: '#fff', // default: '#fff'
 	saveInCookies: true, // default: true,
-	label: '🌓', // default: ''
+	label: '<img src="469E99D3-9F25-4C33-AC9A-F3169663D9D6.png" width="30px" />', // default: ''
 	autoMatchOsTheme: true, // default: true
 };
 
