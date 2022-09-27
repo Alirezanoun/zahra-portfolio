@@ -851,6 +851,4 @@ section .cards .text-card h3 {
   -webkit-text-stroke: 4px #ff4969;
   text-align: center;
   margin-top: 15rem;
-  background: url(./img/back.png);
-  -webkit-background-clip: text;
 }/*# sourceMappingURL=index.css.map */
