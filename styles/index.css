@@ -834,4 +834,23 @@ section .cards .text-card h3 {
 .bubbles img:nth-child(7) {
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
+}
+
+.text-box {
+  color: #ff4969;
+  width: 100%;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 30px;
+}
+
+.text-box h1 {
+  font-size: 300px;
+  color: #efbde2;
+  -webkit-text-stroke: 4px #ff4969;
+  text-align: center;
+  margin-top: 15rem;
+  background: url(./img/back.png);
+  -webkit-background-clip: text;
 }/*# sourceMappingURL=index.css.map */
