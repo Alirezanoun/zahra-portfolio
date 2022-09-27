@@ -752,4 +752,86 @@ section .cards .text-card h3 {
     font-size: 2rem;
     color: #ff4969;
   }
+}
+.bubbles img {
+  width: 50px;
+  -webkit-animation: bubble 7s linear infinite;
+          animation: bubble 7s linear infinite;
+}
+
+.bubbles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+
+@-webkit-keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+.bubbles img:nth-child(1) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.bubbles img:nth-child(2) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.bubbles img:nth-child(3) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.bubbles img:nth-child(4) {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+
+.bubbles img:nth-child(5) {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.bubbles img:nth-child(6) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.bubbles img:nth-child(7) {
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }/*# sourceMappingURL=index.css.map */
