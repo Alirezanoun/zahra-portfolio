@@ -754,7 +754,7 @@ section .cards .text-card h3 {
   }
 }
 .bubbles img {
-  width: 50px;
+  width: 75px;
   -webkit-animation: bubble 7s linear infinite;
           animation: bubble 7s linear infinite;
 }
