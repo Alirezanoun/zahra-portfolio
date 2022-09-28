@@ -2,6 +2,7 @@
 
 .content {
 	color: $pink;
+	text-align: center;
 	width: 100%;
 	padding-top: 16px;
 	padding-right: 16px;
@@ -11,8 +12,6 @@
 
 .content h1 {
 	font-size: 300px;
-	align-items: center;
-	justify-content: center;
 	margin-top: 15rem;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -21,14 +20,12 @@
 .content h1:nth-child(1) {
 	color: transparent;
 	padding-left: 115rem;
-	text-align: center;
 	-webkit-text-stroke: 3px $pink;
 }
 
 .content h1:nth-child(2) {
 	color: $light-pink;
 	padding-left: 115rem;
-	text-align: center;
 	animation: animate 4s ease-in-out infinite;
 }
 
@@ -40,5 +37,19 @@
 
 	50% {
 		clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.content h1:nth-child(1) {
+		color: transparent;
+		text-align: center;
+		-webkit-text-stroke: 3px $pink;
+	}
+
+	.content h1:nth-child(2) {
+		color: $light-pink;
+		text-align: center;
+		animation: animate 4s ease-in-out infinite;
 	}
 }

@@ -838,6 +838,7 @@ section .cards .text-card h3 {
 
 .content {
   color: #ff4969;
+  text-align: center;
   width: 100%;
   padding-top: 16px;
   padding-right: 16px;
@@ -847,8 +848,6 @@ section .cards .text-card h3 {
 
 .content h1 {
   font-size: 300px;
-  align-items: center;
-  justify-content: center;
   margin-top: 15rem;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -857,14 +856,12 @@ section .cards .text-card h3 {
 .content h1:nth-child(1) {
   color: transparent;
   padding-left: 115rem;
-  text-align: center;
   -webkit-text-stroke: 3px #ff4969;
 }
 
 .content h1:nth-child(2) {
   color: #efbde2;
   padding-left: 115rem;
-  text-align: center;
   -webkit-animation: animate 4s ease-in-out infinite;
           animation: animate 4s ease-in-out infinite;
 }
@@ -888,5 +885,18 @@ section .cards .text-card h3 {
   50% {
     -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
             clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+@media screen and (max-width: 960px) {
+  .content h1:nth-child(1) {
+    color: transparent;
+    text-align: center;
+    -webkit-text-stroke: 3px #ff4969;
+  }
+  .content h1:nth-child(2) {
+    color: #efbde2;
+    text-align: center;
+    -webkit-animation: animate 4s ease-in-out infinite;
+            animation: animate 4s ease-in-out infinite;
   }
 }/*# sourceMappingURL=index.css.map */
