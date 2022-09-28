@@ -241,7 +241,7 @@ a:visited {
 
 .image-gap {
   width: 100%;
-  padding-top: 20rem;
+  padding-top: 50rem;
   padding-right: 16px;
   padding-left: 16px;
   padding-bottom: 120px;
@@ -754,7 +754,7 @@ section .cards .text-card h3 {
   }
 }
 .bubbles img {
-  width: 75px;
+  width: 120px;
   -webkit-animation: bubble 7s linear infinite;
           animation: bubble 7s linear infinite;
 }
@@ -847,7 +847,7 @@ section .cards .text-card h3 {
 }
 
 .content h1 {
-  font-size: 300px;
+  font-size: 400px;
   margin-top: 15rem;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -856,12 +856,14 @@ section .cards .text-card h3 {
 .content h1:nth-child(1) {
   color: transparent;
   padding-left: 115rem;
-  -webkit-text-stroke: 3px #ff4969;
+  margin-top: 30rem;
+  -webkit-text-stroke: 4px #ff4969;
 }
 
 .content h1:nth-child(2) {
   color: #efbde2;
   padding-left: 115rem;
+  margin-top: 30rem;
   -webkit-animation: animate 4s ease-in-out infinite;
           animation: animate 4s ease-in-out infinite;
 }
