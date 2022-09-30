@@ -79,6 +79,14 @@ a:visited {
   font-size: 2rem;
 }
 
+.expanded-text {
+  text-align: center;
+  color: #ff4969;
+  letter-spacing: 1em;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
 .fab,
 .fa-instagram {
   font-size: 1.3rem;
@@ -180,6 +188,10 @@ a:visited {
     font-family: "Croissant One", cursive;
     font-size: 1.5rem;
     padding-left: 130px;
+  }
+  .expanded-text {
+    font-size: 1.1rem;
+    padding-top: 0;
   }
   .navbar__toggle {
     display: block;
@@ -751,155 +763,5 @@ section .cards .text-card h3 {
     text-align: center;
     font-size: 2rem;
     color: #ff4969;
-  }
-}
-.bubbles img {
-  width: 120px;
-  -webkit-animation: bubble 7s linear infinite;
-          animation: bubble 7s linear infinite;
-}
-
-.bubbles {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  margin-top: 50rem;
-}
-
-@-webkit-keyframes bubble {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-80vh);
-    opacity: 0;
-  }
-}
-
-@keyframes bubble {
-  0% {
-    transform: translateY(0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-80vh);
-    opacity: 0;
-  }
-}
-.bubbles img:nth-child(1) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-.bubbles img:nth-child(2) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-.bubbles img:nth-child(3) {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-}
-
-.bubbles img:nth-child(4) {
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
-}
-
-.bubbles img:nth-child(5) {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-}
-
-.bubbles img:nth-child(6) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-}
-
-.bubbles img:nth-child(7) {
-  -webkit-animation-delay: 7s;
-          animation-delay: 7s;
-}
-
-.content {
-  color: #ff4969;
-  text-align: center;
-  width: 100%;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-left: 16px;
-  padding-bottom: 30px;
-}
-
-.content h1 {
-  font-size: 250px;
-  font-family: "Yeseva One";
-  margin-top: 15rem;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-.content h1:nth-child(1) {
-  color: transparent;
-  padding-left: 115rem;
-  margin-top: 30rem;
-  -webkit-text-stroke: 1px #ff4969;
-}
-
-.content h1:nth-child(2) {
-  color: #efbde2;
-  padding-left: 115rem;
-  margin-top: 30rem;
-  -webkit-animation: animate 4s ease-in-out infinite;
-          animation: animate 4s ease-in-out infinite;
-}
-
-@-webkit-keyframes animate {
-  0%, 100% {
-    -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-  }
-  50% {
-    -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-  }
-}
-
-@keyframes animate {
-  0%, 100% {
-    -webkit-clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 45%, 16% 44%, 33% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
-  }
-  50% {
-    -webkit-clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
-  }
-}
-@media screen and (max-width: 960px) {
-  .content h1:nth-child(1) {
-    color: transparent;
-    text-align: center;
-    -webkit-text-stroke: 3px #ff4969;
-  }
-  .content h1:nth-child(2) {
-    color: #efbde2;
-    text-align: center;
-    -webkit-animation: animate 4s ease-in-out infinite;
-            animation: animate 4s ease-in-out infinite;
   }
 }/*# sourceMappingURL=index.css.map */

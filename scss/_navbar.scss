@@ -58,6 +58,14 @@
 	font-size: 2rem;
 }
 
+.expanded-text {
+	text-align: center;
+	color: $pink;
+	letter-spacing: 1em;
+	font-size: 2rem;
+	padding-top: 1rem;
+}
+
 .fab,
 .fa-instagram {
 	font-size: 1.3rem;
@@ -163,6 +171,11 @@
 		font-family: 'Croissant One', cursive;
 		font-size: 1.5rem;
 		padding-left: 130px;
+	}
+
+	.expanded-text {
+		font-size: 1.1rem;
+		padding-top: 0;
 	}
 
 	.navbar__toggle {
