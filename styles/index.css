@@ -80,10 +80,8 @@ a:visited {
 }
 
 .expanded-text {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   color: #ff4969;
+  padding-left: 5rem;
   letter-spacing: 1em;
   font-size: 1.5rem;
   padding-top: 1rem;
