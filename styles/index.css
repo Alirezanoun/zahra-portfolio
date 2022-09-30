@@ -191,7 +191,10 @@ a:visited {
     padding-left: 130px;
   }
   .expanded-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    margin-top: 0.1rem;
+    text-align: center;
     padding-top: 0;
   }
   .navbar__toggle {
@@ -202,7 +205,7 @@ a:visited {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: rgb(226, 159, 232);
+    background: #ff4969;
   }
   .navbar__item {
     width: 100%;
