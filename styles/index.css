@@ -744,7 +744,7 @@ section .cards .text-card h3 {
 }
 .gallery-container-2 .image-gallery-2 .divider {
   width: 12px;
-  height: 1px;
+  height: 2px;
   background-color: #ffffff;
   display: inline-block;
   margin-top: 5px;
@@ -833,7 +833,7 @@ section .cards .text-card h3 {
 }
 .gallery-container-3 .image-gallery-3 .divider {
   width: 12px;
-  height: 1px;
+  height: 2px;
   background-color: #ffffff;
   display: inline-block;
   margin-top: 5px;
