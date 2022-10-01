@@ -733,6 +733,7 @@ section .cards .text-card h3 {
 }
 .gallery-container-2 .image-gallery-2 .image__title {
   font-size: 1.5em;
+  text-align: center;
   font-family: "Brown-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 3px;
 }
