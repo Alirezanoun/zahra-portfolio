@@ -705,7 +705,7 @@ section .cards .text-card h3 {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
+  color: #ff4969;
   font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
@@ -719,7 +719,7 @@ section .cards .text-card h3 {
           backdrop-filter: blur(5px);
 }
 .gallery-container-2 .image-gallery-2 .image__overlay--primary {
-  background: #ff4969;
+  background: #ffffff;
 }
 .gallery-container-2 .image-gallery-2 .image__overlay > * {
   transform: translateY(20px);
@@ -785,7 +785,7 @@ section .cards .text-card h3 {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
+  color: #ff4969;
   font-family: "Quicksand", sans-serif;
   display: flex;
   flex-direction: column;
@@ -799,7 +799,7 @@ section .cards .text-card h3 {
           backdrop-filter: blur(5px);
 }
 .gallery-container-3 .image-gallery-3 .image__overlay--primary {
-  background: #ff4969;
+  background: #ffffff;
 }
 .gallery-container-3 .image-gallery-3 .image__overlay > * {
   transform: translateY(20px);
