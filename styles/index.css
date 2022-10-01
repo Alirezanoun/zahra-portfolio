@@ -719,7 +719,7 @@ section .cards .text-card h3 {
           backdrop-filter: blur(5px);
 }
 .gallery-container-2 .image-gallery-2 .image__overlay--primary {
-  background: #009578;
+  background: #ff4969;
 }
 .gallery-container-2 .image-gallery-2 .image__overlay > * {
   transform: translateY(20px);
@@ -734,7 +734,7 @@ section .cards .text-card h3 {
 .gallery-container-2 .image-gallery-2 .image__title {
   font-size: 1.5em;
   font-family: "Brown-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 .gallery-container-2 .image-gallery-2 .image__description {
   font-size: 1.25em;
@@ -799,7 +799,7 @@ section .cards .text-card h3 {
           backdrop-filter: blur(5px);
 }
 .gallery-container-3 .image-gallery-3 .image__overlay--primary {
-  background: #009578;
+  background: #ff4969;
 }
 .gallery-container-3 .image-gallery-3 .image__overlay > * {
   transform: translateY(20px);
@@ -814,7 +814,7 @@ section .cards .text-card h3 {
 .gallery-container-3 .image-gallery-3 .image__title {
   font-size: 1.5em;
   font-family: "Brown-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 .gallery-container-3 .image-gallery-3 .image__description {
   font-size: 1.25em;
