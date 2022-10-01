@@ -1,7 +1,7 @@
 @use './color' as *;
 
 #preloader {
-	background: #000 url('./../img/logo.png') no-repeat center center;
+	background: $pink url('./../img/logo.png') no-repeat center center;
 	background-size: 10%;
 	height: 100vh;
 	width: 100%;
