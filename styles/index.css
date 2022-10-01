@@ -739,6 +739,7 @@ section .cards .text-card h3 {
 }
 .gallery-container-2 .image-gallery-2 .image__description {
   font-size: 1.25em;
+  font-family: "Brown-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0.25em;
 }
 .gallery-container-2 .image .zoom-in {
@@ -819,6 +820,7 @@ section .cards .text-card h3 {
 }
 .gallery-container-3 .image-gallery-3 .image__description {
   font-size: 1.25em;
+  font-family: "Brown-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0.25em;
 }
 .gallery-container-3 .image .zoom-in {
