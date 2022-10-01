@@ -742,6 +742,14 @@ section .cards .text-card h3 {
   font-family: "Brown-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0.25em;
 }
+.gallery-container-2 .image-gallery-2 .divider {
+  width: 12px;
+  height: 1px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 12px;
+}
 .gallery-container-2 .image .zoom-in {
   transition: all 0.5s ease-out;
 }
