@@ -362,7 +362,7 @@ a:visited {
 .main__btn {
   font-size: 1rem;
   background: #833ab4;
-  background: linear-gradient(to right, #efbde2, #efbde2, #efbde2);
+  background: linear-gradient(to right, #ff4969, #ff4969, #ff4969);
   padding: 11px 31px;
   border: none;
   border-radius: 7px;
@@ -376,7 +376,7 @@ a:visited {
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #000;
+  color: #efbde2;
   text-decoration: none;
 }
 
@@ -387,7 +387,7 @@ a:visited {
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff4969;
+  background: #000;
   transition: all 0.35s;
   border-radius: 4px;
 }

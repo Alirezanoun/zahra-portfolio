@@ -61,8 +61,8 @@
 .main__btn {
 	font-size: 1rem;
 	background: #833ab4;
-	background: -webkit-linear-gradient(to right, $light-pink, $light-pink, $light-pink);
-	background: linear-gradient(to right, $light-pink, $light-pink, $light-pink);
+	background: -webkit-linear-gradient(to right, $pink, $pink, $pink);
+	background: linear-gradient(to right, $pink, $pink, $pink);
 	padding: 11px 31px;
 	border: none;
 	border-radius: 7px;
@@ -76,7 +76,7 @@
 .main__btn a {
 	position: relative;
 	z-index: 2;
-	color: #000;
+	color: $light-pink;
 	text-decoration: none;
 }
 
@@ -87,7 +87,7 @@
 	left: 0;
 	width: 0;
 	height: 100%;
-	background: $pink;
+	background: #000;
 	transition: all 0.35s;
 	border-radius: 4px;
 }
