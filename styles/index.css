@@ -1007,19 +1007,4 @@ section .cards .text-card h3 {
   to {
     fill: #ff4969;
   }
-}
-.cursor {
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #fff;
-  transition: 0.1s;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  mix-blend-mode: difference;
-}
-
-h1:hover ~ .cursor {
-  transform: scale(6);
 }/*# sourceMappingURL=index.css.map */
