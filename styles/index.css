@@ -101,6 +101,8 @@ a:visited {
   color: white;
   display: flex;
   align-items: center;
+  font-family: "Croissant One", cursive;
+  font-size: 1.1rem;
   justify-content: center;
   width: 120px;
   text-decoration: none;
@@ -187,13 +189,6 @@ a:visited {
     width: 100%;
     font-size: 1.5rem;
     margin-left: 1.5rem;
-  }
-  .expanded-text {
-    font-size: 1rem;
-    padding-left: 1rem;
-    margin-top: 0.1rem;
-    text-align: center;
-    padding-top: 0;
   }
   .navbar__toggle {
     display: block;
