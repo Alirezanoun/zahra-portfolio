@@ -53,9 +53,11 @@
 	-moz-text-fill-color: transparent;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-left: 18rem;
 	cursor: pointer;
 	text-decoration: none;
-	margin-left: 50rem;
 	font-size: 2rem;
 }
 
@@ -90,7 +92,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 0 1rem;
-	width: 100%;
+	width: 9rem;
 }
 
 .button {
@@ -162,8 +164,12 @@
 
 	#navbar__logo2 {
 		font-family: 'Croissant One', cursive;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 		font-size: 1.5rem;
-		margin-left: 12rem;
+		margin-left: 1.5rem;
 	}
 
 	.expanded-text {
@@ -204,8 +210,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 80%;
-		height: 80px;
+		text-align: center;
+		width: 500rem;
+		height: 100%;
 		margin: 0;
 	}
 
