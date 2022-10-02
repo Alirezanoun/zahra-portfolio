@@ -75,7 +75,7 @@
 }
 
 .navbar__links {
-	color: rgb(226, 159, 232);
+	color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -160,10 +160,10 @@
 		justify-content: center;
 	}
 
-	#navbar__logo {
+	#navbar__logo2 {
 		font-family: 'Croissant One', cursive;
 		font-size: 1.5rem;
-		padding-left: 130px;
+		margin-left: 12rem;
 	}
 
 	.expanded-text {

@@ -7,6 +7,12 @@ const Navbar = `
           <span class="bar"></span>
         </div>
         <ul class="navbar__menu">
+         <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">ABOUT ME</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#work" class="navbar__links" id="work-page">WORK</a>
+          </li>
           <a href="https://www.instagram.com/zgraphicals/" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
