@@ -879,7 +879,7 @@ section .cards .text-card h3 {
   position: absolute;
   right: 50%;
   left: 50%;
-  bottom: 30%;
+  bottom: 25%;
   transform: translate(-50%, -50%);
   -webkit-animation: fill 0.5s ease forwards 2s;
           animation: fill 0.5s ease forwards 2s;
