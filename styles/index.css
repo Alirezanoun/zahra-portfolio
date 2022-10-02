@@ -866,15 +866,6 @@ section .cards .text-card h3 {
     color: #ff4969;
   }
 }
-#preloader {
-  background: #efbde2 url("./../img/logo.png") no-repeat center center;
-  background-size: 10%;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
 #logo {
   position: absolute;
   right: 50%;
