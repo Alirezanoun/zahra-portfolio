@@ -27,6 +27,20 @@
 	padding: 0 50px;
 }
 
+li::after {
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: $pink;
+	margin: auto;
+	display: block;
+}
+
+li:hover::after {
+	width: 100%;
+	transition: width 0.4s linear;
+}
+
 .sub-menu-1 {
 	display: none;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
