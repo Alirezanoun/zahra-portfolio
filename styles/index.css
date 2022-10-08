@@ -46,6 +46,45 @@ a:visited {
   padding: 0 50px;
 }
 
+.sub-menu-1 {
+  display: none;
+}
+
+.drop {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.navbar__container ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #eeedeb;
+  margin-top: 1px;
+  margin-left: -15px;
+}
+
+.navbar__container ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.navbar__container ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.navbar__container ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.navbar__container ul li:hover .sub-menu-1 ul li a:hover {
+  color: #000;
+}
+
 .font1 {
   font-family: "Croissant One", cursive;
 }

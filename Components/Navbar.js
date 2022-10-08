@@ -12,6 +12,13 @@ const Navbar = `
           </li>
           <li class="navbar__item">
             <a href="#work" class="navbar__links" id="work-page">WORK</a>
+            <div class="sub-menu-1">
+          <ul>
+          <li><a href="#" class="drop">BRANDS</li>
+          <li><a href="#" class="drop">POSTERS</li>
+          <li><a href="#" class="drop">ILLUSTRATIONS</li>
+          </ul>
+          </div>
           </li>
           </ul>
           <ul class="left-side">
