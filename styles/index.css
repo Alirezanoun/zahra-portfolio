@@ -11,17 +11,17 @@ html {
 }
 
 body {
-  background-color: #121212;
+  background-color: #eeedeb;
 }
 
 a:link,
 a:visited {
-  color: #ff4969;
+  color: #962a31;
 }
 
 #navigation-bar {
   width: 100%;
-  background-color: #121212;
+  background-color: #eeedeb;
   position: fixed;
   top: 0;
   z-index: 999;
@@ -51,7 +51,7 @@ a:visited {
 
 #navbar__logo {
   background-color: #ffffff;
-  background-image: linear-gradient(to top, #ff4969 0%, #ff4969 100%);
+  background-image: linear-gradient(to top, #962a31 0%, #962a31 100%);
   background-size: 100%;
   -webkit-background-clip: text;
           background-clip: text;
@@ -101,7 +101,8 @@ a:visited {
   color: white;
   display: flex;
   align-items: center;
-  font-family: "Croissant One", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
   font-size: 1.1rem;
   justify-content: center;
   width: 130px;
@@ -110,36 +111,8 @@ a:visited {
   transition: all 0.3s ease;
 }
 
-.navbar__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-  width: 9rem;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 10px;
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  background: #833ab4;
-  background: linear-gradient(to right, #ff4969, #ff4969, #ff4969);
-  color: #ffffff !important;
-  transition: all 0.3s ease;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  word-spacing: 3px;
-}
-
 .navbar__links:hover {
-  color: #f9f8f2;
+  color: #000;
   transition: all 0.3s ease;
 }
 
@@ -198,7 +171,7 @@ a:visited {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #ff4969;
+    background: #962a31;
   }
   .navbar__item {
     width: 100%;
@@ -270,14 +243,14 @@ a:visited {
   font-weight: 300;
 }
 .image-gap section .header-2 {
-  font-size: 4rem;
+  font-size: 5.5rem;
   text-align: center;
-  color: #ff4969;
-  font-family: "Yeseva One";
+  color: #962a31;
+  font-family: "Sacramento", cursive;
 }
 .image-gap section .header-3 {
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 960px) {
@@ -327,7 +300,7 @@ a:visited {
 }
 .main__content h2 {
   font-size: 4rem;
-  color: #ff4969;
+  color: #962a31;
 }
 .main__content p {
   font-size: 2rem;
@@ -355,13 +328,13 @@ a:visited {
 
 .fix2 {
   font-size: 1rem;
-  font-family: "Yeseva One";
+  font-family: "Sacramento", cursive;
 }
 
 .main__btn {
   font-size: 1rem;
   background: #833ab4;
-  background: linear-gradient(to right, #ff4969, #ff4969, #ff4969);
+  background: linear-gradient(to right, #962a31, #962a31, #962a31);
   padding: 11px 31px;
   border: none;
   border-radius: 7px;
@@ -375,7 +348,7 @@ a:visited {
 .main__btn a {
   position: relative;
   z-index: 2;
-  color: #efbde2;
+  color: #eeedeb;
   text-decoration: none;
 }
 
@@ -466,23 +439,25 @@ a:visited {
 }
 
 .font2 {
-  font-family: "Yeseva One";
+  font-family: "Sacramento", cursive;
 }
 
 .a1 {
   text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
 }
 
 .services h1 {
   background-color: #000000;
-  background-image: linear-gradient(to right, #ff4969 0%, #ff4969 100%);
+  background-image: linear-gradient(to right, #962a31 0%, #962a31 100%);
   background-size: 100%;
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   margin-bottom: 5rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .services__wrapper {
@@ -605,7 +580,7 @@ section .cards .text-card h3 {
 
 .website__rights {
   font-family: "Source Sans Pro", sans-serif;
-  color: #ff4969;
+  color: #eeedeb;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -718,7 +693,7 @@ section .cards .text-card h3 {
           backdrop-filter: blur(5px);
 }
 .gallery-container-2 .image-gallery-2 .image__overlay--primary {
-  background: #ff4969;
+  background: #962a31;
 }
 .gallery-container-2 .image-gallery-2 .image__overlay > * {
   transform: translateY(20px);
@@ -808,7 +783,7 @@ section .cards .text-card h3 {
           backdrop-filter: blur(5px);
 }
 .gallery-container-3 .image-gallery-3 .image__overlay--primary {
-  background: #ff4969;
+  background: #962a31;
 }
 .gallery-container-3 .image-gallery-3 .image__overlay > * {
   transform: translateY(20px);
@@ -860,131 +835,131 @@ section .cards .text-card h3 {
   }
 }
 .font3 {
-  font-family: "Yeseva One";
+  font-family: "Sacramento", cursive;
   text-align: center;
-  font-size: 2.5rem;
-  color: #ff4969;
+  font-size: 4rem;
+  color: #962a31;
 }
 
 @media screen and (max-width: 960px) {
   .font3 {
-    font-family: "Yeseva One";
+    font-family: "Sacramento", cursive;
     text-align: center;
     font-size: 2rem;
-    color: #ff4969;
+    color: #962a31;
   }
 }
 #logo {
   position: absolute;
   right: 50%;
   left: 50%;
-  bottom: 25%;
+  bottom: 40%;
   transform: translate(-50%, -50%);
   -webkit-animation: fill 0.5s ease forwards 2s;
           animation: fill 0.5s ease forwards 2s;
 }
 
 #logo path:nth-child(1) {
-  stroke-dasharray: 786px;
-  stroke-dashoffset: 786px;
+  stroke-dasharray: 725px;
+  stroke-dashoffset: 725px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(2) {
-  stroke-dasharray: 711px;
-  stroke-dashoffset: 711px;
+  stroke-dasharray: 211px;
+  stroke-dashoffset: 211px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(3) {
-  stroke-dasharray: 938px;
-  stroke-dashoffset: 938px;
+  stroke-dasharray: 466px;
+  stroke-dashoffset: 466px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(4) {
-  stroke-dasharray: 900px;
-  stroke-dashoffset: 900px;
+  stroke-dasharray: 193px;
+  stroke-dashoffset: 193px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(5) {
-  stroke-dasharray: 711px;
-  stroke-dashoffset: 711px;
+  stroke-dasharray: 211px;
+  stroke-dashoffset: 211px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(6) {
-  stroke-dasharray: 364px;
-  stroke-dashoffset: 364px;
+  stroke-dasharray: 780px;
+  stroke-dashoffset: 780px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(7) {
-  stroke-dasharray: 308px;
-  stroke-dashoffset: 308px;
+  stroke-dasharray: 219px;
+  stroke-dashoffset: 219px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(8) {
-  stroke-dasharray: 319px;
-  stroke-dashoffset: 319px;
+  stroke-dasharray: 203px;
+  stroke-dashoffset: 203px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(9) {
-  stroke-dasharray: 375px;
-  stroke-dashoffset: 375px;
+  stroke-dasharray: 466px;
+  stroke-dashoffset: 466px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(10) {
-  stroke-dasharray: 356px;
-  stroke-dashoffset: 356px;
+  stroke-dasharray: 179px;
+  stroke-dashoffset: 179px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(11) {
-  stroke-dasharray: 375px;
-  stroke-dashoffset: 375px;
+  stroke-dasharray: 466px;
+  stroke-dashoffset: 466px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(12) {
-  stroke-dasharray: 344px;
-  stroke-dashoffset: 344px;
+  stroke-dasharray: 371px;
+  stroke-dashoffset: 371px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(13) {
-  stroke-dasharray: 375px;
-  stroke-dashoffset: 375px;
+  stroke-dasharray: 466px;
+  stroke-dashoffset: 466px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(14) {
-  stroke-dasharray: 284px;
-  stroke-dashoffset: 284px;
+  stroke-dasharray: 211px;
+  stroke-dashoffset: 211px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
 
 #logo path:nth-child(15) {
-  stroke-dasharray: 364px;
-  stroke-dashoffset: 364px;
+  stroke-dasharray: 262px;
+  stroke-dashoffset: 262px;
   -webkit-animation: line-anim 2s ease forwards;
           animation: line-anim 2s ease forwards;
 }
@@ -1005,7 +980,7 @@ section .cards .text-card h3 {
     fill: transparent;
   }
   to {
-    fill: #ff4969;
+    fill: #962a31;
   }
 }
 @keyframes fill {
@@ -1013,7 +988,7 @@ section .cards .text-card h3 {
     fill: transparent;
   }
   to {
-    fill: #ff4969;
+    fill: #962a31;
   }
 }
 @media screen and (max-width: 960px) {

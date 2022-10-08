@@ -11,13 +11,13 @@ const Navbar = `
             <a href="#about" class="navbar__links" id="about-page">ABOUT ME</a>
           </li>
           <li class="navbar__item">
-            <a href="#work" class="navbar__links" id="work-page">WORK</a>
+            <a href="#work" class="navbar__links" id="work-page">DESIGNS</a>
           </li>
-          <a href="https://www.instagram.com/zgraphicals/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <li class="navbar__btn">
-            <a href="./contact.html" class="button" id="signup">Contact Me</a>
+          <li class="navbar__item">
+            <a href="https://www.instagram.com/zgraphicals/" target="_blank" class="navbar__links" id="insta">INSTAGRAM</a>
+          </li>
+                    <li class="navbar__item">
+            <a href="./contact.html" class="navbar__links" id="work-page">CONTACT ME</a>
           </li>
         </ul>
       </div>

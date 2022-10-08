@@ -1,15 +1,15 @@
 @use './color' as *;
 
 .font3 {
-	font-family: 'Yeseva One';
+	font-family: 'Sacramento', cursive;
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 4rem;
 	color: $pink;
 }
 
 @media screen and (max-width: 960px) {
 	.font3 {
-		font-family: 'Yeseva One';
+		font-family: 'Sacramento', cursive;
 		text-align: center;
 		font-size: 2rem;
 		color: $pink;
