@@ -136,11 +136,13 @@
 		opacity: 1;
 		transition: all 0.5s ease;
 		z-index: -1;
+		gap: 0;
 	}
 
 	.right-side.active {
 		background: #eeedeb;
 		top: 100%;
+		padding-right: 0;
 		opacity: 1;
 		transition: all 0.5s ease;
 		z-index: 99;
@@ -157,6 +159,7 @@
 		background: #eeedeb;
 		top: 100%;
 		opacity: 1;
+		margin-right: 0;
 		transition: all 0.5s ease;
 		z-index: 99;
 		height: 60vh;

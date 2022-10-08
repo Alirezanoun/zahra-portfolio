@@ -1,6 +1,6 @@
 function MobileMenu() {
 	const menu = document.querySelector('#mobile-menu');
-	const menuLinks = document.querySelector('.navbar__menu');
+	const menuLinks = document.querySelector('.right-side, .left-side');
 	const navLogo = document.querySelector('#navbar__logo2');
 	const elem = document.querySelector('.highlight');
 	const aboutMenu = document.querySelector('#about-page');
