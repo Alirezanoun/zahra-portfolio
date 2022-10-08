@@ -61,16 +61,13 @@
 	font-size: 2rem;
 }
 
-.fab,
-.fa-instagram {
-	font-size: 1.3rem;
-}
-
 .right-side,
 .left-side {
 	list-style-type: none;
 	display: flex;
 	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
 }
 
 .right-side li,
@@ -86,6 +83,16 @@
 .left-side {
 	margin-right: 20rem;
 	gap: 9rem;
+}
+
+a:after {
+	content: '';
+	position: absolute;
+	background-color: $pink;
+	height: 3px;
+	width: 100%;
+	left: 0;
+	bottom: -1px;
 }
 
 .navbar__item {
