@@ -86,6 +86,7 @@ a:visited {
 .left-side {
   list-style-type: none;
   display: flex;
+  width: 40vw;
   letter-spacing: 3px;
   align-items: center;
   justify-content: center;
