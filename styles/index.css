@@ -53,6 +53,7 @@ li::after {
   background-color: #962a31;
   margin: auto;
   display: block;
+  transition: 0.4s;
 }
 
 li:hover::after {
