@@ -12,6 +12,7 @@
 	height: 130px;
 	display: flex;
 	justify-content: center;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 	align-items: center;
 	font-size: 1rem;
 }
@@ -84,16 +85,6 @@
 .left-side {
 	margin-right: 20rem;
 	gap: 9rem;
-}
-
-a:after {
-	content: '';
-	position: absolute;
-	background-color: $pink;
-	height: 3px;
-	width: 100%;
-	left: 0;
-	bottom: -1px;
 }
 
 .navbar__item {
