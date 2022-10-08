@@ -53,6 +53,7 @@ a:visited {
 .drop {
   text-decoration: none;
   color: #ffffff;
+  display: block;
   letter-spacing: 0;
 }
 
@@ -72,6 +73,7 @@ a:visited {
 .navbar__container ul li:hover .sub-menu-1 ul li {
   width: 150px;
   padding: 10px;
+  border-bottom: 1px solid #000;
   background: transparent;
   border-radius: 0;
   text-align: left;
@@ -139,12 +141,12 @@ a:visited {
 
 .right-side {
   padding-right: 20rem;
-  gap: 9rem;
+  gap: 6rem;
 }
 
 .left-side {
   margin-right: 20rem;
-  gap: 9rem;
+  gap: 6rem;
 }
 
 .navbar__item {
