@@ -40,7 +40,7 @@ a:visited {
   width: 300px;
   height: 300px;
   position: absolute;
-  left: 50%;
+  left: 53%;
   top: 20px;
   content: "";
   margin-left: -150px;
@@ -687,7 +687,7 @@ section .cards .text-card h3 {
 
 .website__rights {
   font-family: "Source Sans Pro", sans-serif;
-  color: #eeedeb;
+  color: #fff;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

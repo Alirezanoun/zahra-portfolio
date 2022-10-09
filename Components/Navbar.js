@@ -1,7 +1,7 @@
 const Navbar = `
     <nav class="navbar">
     <div class="logo_area" href="./index.html">
-    <a href="./index.html"><img src="./img/logo.png" width="100" height="80"/></a>
+    <a href="./index.html"><img src="./img/favicon.png" width="100" height="80"/></a>
     </div>
       <div class="navbar__container">
         <div class="navbar__toggle" id="mobile-menu">
@@ -19,6 +19,7 @@ const Navbar = `
           <li><a href="#" class="drop">BRANDS</li>
           <li><a href="#" class="drop">POSTERS</li>
           <li><a href="#" class="drop">ILLUSTRATIONS</li>
+          <li><a href="#" class="drop">ANIMATIONS</li>
           </ul>
           </div>
           </li>
