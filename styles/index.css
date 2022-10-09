@@ -241,6 +241,7 @@ li:hover::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
   .left-side.active {
     background: #eeedeb;
@@ -256,6 +257,7 @@ li:hover::after {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
   #navbar__logo2 {
     font-family: "Croissant One", cursive;
@@ -308,6 +310,7 @@ li:hover::after {
   }
   .navbar__toggle .bar {
     display: block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
   #mobile-menu.is-active .bar:nth-child(2) {
