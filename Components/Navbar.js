@@ -1,7 +1,9 @@
 const Navbar = `
     <nav class="navbar">
+    <div class="logo_area" href="./index.html">
+    <a href="./index.html"><img src="./img/logo.png" width="100" height="80"/></a>
+    </div>
       <div class="navbar__container">
-        <a href="./index.html" id="navbar__logo2"></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>

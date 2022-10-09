@@ -17,6 +17,16 @@
 	font-size: 1rem;
 }
 
+.logo_area {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	content: '';
+	margin-left: -150px;
+}
+
 .navbar__container {
 	display: flex;
 	justify-content: space-between;
@@ -135,12 +145,12 @@ li:hover::after {
 }
 
 .right-side {
-	padding-right: 20rem;
+	padding-right: 1rem;
 	gap: 6rem;
 }
 
 .left-side {
-	margin-right: 20rem;
+	margin-right: 1rem;
 	gap: 6rem;
 }
 
@@ -179,6 +189,10 @@ li:hover::after {
 		z-index: 1;
 		width: 100%;
 		padding: 24px;
+	}
+
+	.logo_area {
+		padding-left: 6rem;
 	}
 
 	.right-side,
@@ -243,6 +257,7 @@ li:hover::after {
 			width: 25px;
 			height: 3px;
 			margin: 5px auto;
+			margin-left: 25rem;
 			transition: all 0.3s ease-in-out;
 			background: $pink;
 		}
