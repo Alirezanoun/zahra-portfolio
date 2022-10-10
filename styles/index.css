@@ -692,7 +692,7 @@ section .cards .text-card h3 {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  padding-top: 48px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
