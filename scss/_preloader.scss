@@ -12,8 +12,12 @@
 .loader-text {
 	font-family: 'Croissant One', cursive;
 	font-size: 3rem;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
 	color: $pink;
 	padding-top: 40rem;
-	padding-left: 40rem;
+	padding-left: 2.5rem;
 	letter-spacing: 10px;
 }
