@@ -853,12 +853,16 @@ section .cards .text-card h3 {
     color: #962a31;
   }
 }
-#logo {
-  position: absolute;
-  right: 50%;
-  left: 50%;
-  bottom: 40%;
-  transform: translate(-50%, -50%);
+#logo-height {
+  display: flex;
+  place-content: center;
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+}
+#logo-height #logo {
+  width: 100%;
+  height: auto;
   -webkit-animation: fill 0.5s ease forwards 2s;
           animation: fill 0.5s ease forwards 2s;
 }
@@ -995,16 +999,10 @@ section .cards .text-card h3 {
     fill: #962a31;
   }
 }
-@media screen and (max-width: 960px) {
-  #logo {
-    margin-bottom: 13rem;
-    padding-right: 35rem;
-    transform: scale(1.5);
-  }
-}
 @media screen and (max-width: 480px) {
-  #logo {
-    padding-top: 170px;
-    transform: scale(2.5);
+  #logo-height {
+    width: 100%;
+    height: 50vh;
+    padding: 0 48px;
   }
 }/*# sourceMappingURL=index.css.map */
