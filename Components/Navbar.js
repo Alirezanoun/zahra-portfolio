@@ -1,13 +1,15 @@
 const Navbar = `
 
 <nav class="navbar">
-	<div class="navbar__container">
+	<header class="navbar__toggle__wrapper">
 		<div class="navbar__toggle" id="mobile-menu">
 			<span class="bar"></span>
 			<span class="bar"></span>
 			<span class="bar"></span>
 		</div>
+	</header>
 
+	<footer class="navbar__container">
 		<ul class="navigation-items">
 			<li class="navbar__item">
 				<a href="./index.html" class="navbar__links" id="about-page">home</a>
@@ -29,8 +31,9 @@ const Navbar = `
 				<a href="./contact.html" class="navbar__links" id="work-page">contact</a>
 			</li>
 		</ul>
-	</div>
+	</footer>
 </nav>
+
 
 
 `
