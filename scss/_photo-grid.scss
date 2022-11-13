@@ -2,16 +2,17 @@
 
 .gallery-container {
 	width: 100%;
-	padding: 16px;
+	padding: 120px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: relative;
+
 	.image-gallery {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 16px;
 		padding-bottom: 120px;
+
 		section {
 			display: flex;
 			flex-direction: column;

@@ -1,5 +1,6 @@
 .image-gallery {
 	.image {
+		position: relative;
 		.zoom-in {
 			&:hover {
 				transform: scale(1.045);

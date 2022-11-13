@@ -744,6 +744,9 @@ section .cards .text-card h3 {
     width: 100%;
   }
 }
+.image-gallery .image {
+  position: relative;
+}
 .image-gallery .image .zoom-in {
   transition: all 0.3s ease-out;
 }
@@ -757,11 +760,10 @@ section .cards .text-card h3 {
 
 .gallery-container {
   width: 100%;
-  padding: 16px;
+  padding: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 .gallery-container .image-gallery {
   display: grid;
