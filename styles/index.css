@@ -710,7 +710,7 @@ section .cards .text-card h3 {
 
 .website__rights {
   font-family: "Source Sans Pro", sans-serif;
-  color: #000;
+  color: #962a31;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
