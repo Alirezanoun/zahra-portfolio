@@ -1,5 +1,5 @@
-import ImageGalleryCards from '../JavaScript/ImageGalleryCards.js'
-import InjectUI from '../JavaScript/injectUI.js'
+import ImageGalleryCards from '../JavaScript/ImageGalleryCards.js';
+import InjectUI from '../JavaScript/injectUI.js';
 
 const LeisureSection = [
 	{
@@ -12,10 +12,19 @@ const LeisureSection = [
 		title: 'LOLLIPOP SWIRL',
 		description: 'EXAMPLE',
 	},
-]
+];
+
+const RepeatingheartSection = [
+	{
+		image: '',
+		title: '',
+		description: '',
+	},
+];
 
 const Work = () => {
-	InjectUI(ImageGalleryCards(LeisureSection), 'LeisureSection')
-}
+	InjectUI(ImageGalleryCards(LeisureSection), 'LeisureSection');
+	InjectUI(ImageGalleryCards(RepeatingheartSection), 'RepeatingheartSection');
+};
 
-export default Work
+export default Work;
