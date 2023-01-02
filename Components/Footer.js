@@ -1,7 +1,7 @@
 const Footer = `
 <div class="footer__container">
 	<img src="./img/wavesfooter.png" class="waves2" />
-	<p class="website__rights" id="sign-up">© ZAHRA NOUHEHKHAN 2022</p>
+	<p class="website__rights" id="sign-up">© ZAHRA NOUHEHKHAN 2023</p>
 </div>
 `;
 
