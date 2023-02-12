@@ -17,3 +17,13 @@ const logo = document.querySelectorAll('#logo path');
 for (let i = 0; i < logo.length; i++) {
 	console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
 }
+
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
